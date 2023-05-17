@@ -1,0 +1,20 @@
+{
+  "name": "dem-heights-helpers",
+  "version": "1.0.0",
+  "description": "A helper repo for dem-heights service",
+  "main": "index.js",
+  "scripts": {
+    "generateJsonPoints": "npx tsc && node ./dist/generateJsonPoints.js",
+    "generateProtoReqBinary": "npx tsc && node ./dist/generateProtoReqBinary.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "cesium": "^1.105.2",
+    "protobufjs": "^7.2.3"
+  }
+}
